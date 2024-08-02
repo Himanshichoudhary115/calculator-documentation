@@ -1,0 +1,23 @@
+Project: c-calculator
+Description: c-calculator is a simple command-line calculator that can perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+
+Main File: calculator.c
+
+Functions:
+
+add(): Prompts the user to enter two integers and prints their sum.
+subtract(): Prompts the user to enter two integers and prints the result of subtracting the second from the first.
+multiply(): Prompts the user to enter two integers and prints their product.
+divide(): Prompts the user to enter two integers and prints the result of dividing the first by the second, checks for division by zero.
+main(): Provides a menu for the user to choose an operation and calls the corresponding function. Exits the program if the user selects the exit option.
+Data Flow:
+
+The program continuously displays a menu for the user to select an operation.
+Based on the user's choice, the corresponding function is called to perform the operation.
+The results are displayed, and the menu is shown again.
+Key Components:
+
+calculator.c: Contains all the functions and the main loop for the program.
+Dependencies:
+
+Standard C libraries: stdio.h, stdlib.h.
